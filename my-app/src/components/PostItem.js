@@ -3,7 +3,7 @@ import css from './css/PostItem.module.css'
 
 function PostItem(props) {
     return (
-        props.savedPosts.map(post => {
+        props.posts.map(post => {
             // destructuring an object
             const {title, name, image, description} = post
             return (
